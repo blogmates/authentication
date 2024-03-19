@@ -1,11 +1,14 @@
 # Authentication
-Create venv:
+
+## Local Build
+
+### Create venv:
 ```
 chmod +x scripts/create_venv.sh
 
 ./create_venv.sh
 ```
-Start the venv:
+### Start the venv
 
 Linux/MacOs
 ```
@@ -18,13 +21,19 @@ Windows
 .\venv\Scripts\Activate.ps1
 ```
 
-Start the app:
+### Start the app
 
 ```
 python -m flask run app/main.py
 ```
 
-# API
+## Docker Build
+
+```
+python scripts/balenuta.py -br
+```
+
+## API
 
 ### Sanity
 
