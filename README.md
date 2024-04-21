@@ -52,3 +52,19 @@ response:
 Server is up and running
 200 OK
 ```
+
+### Credential Validation
+
+endpoint:
+```
+/register
+
+/login
+
+/validate
+
+/silent_refresh
+
+```
+
+
